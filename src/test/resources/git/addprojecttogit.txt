@@ -1,0 +1,41 @@
+CI Process
+---------------
+Pre-requisites
+---------------
+1) install git s/w
+2) create an account with github and create emtry repository.
+		Repo URL:    https://github.com/GuditiHariprasad/API1.git
+GITHUB
+Username	:	GuditiHariprasad
+Email		:	gguditi@gmail.com
+Password	;	Zeeprasad0425#
+Token1		:	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
+Token2		:	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
+------------------------------------------------------------------------------------
+
+Working Project loc: C:\Users\Admin\eclipse-workspace\API1
+
+
+1) git init   ---> create an emtpy local repository   (one time)
+
+2) git config --global user.name  "your name"            (one time)
+   git config --global user.email  "abc@gmail.com"
+
+3) git status
+
+
+4) git add -A   --> add all the files & folders to staging area.
+   git add filename.ext
+   git add *.ext
+   git add foldernamegit commit -m  "commit message"
+
+5) git commit -m "comment"
+
+--------------------------------------
+Push the code to remote repository
+ 6) git remote add origin "url"    ---> local repository connected with remote repository.(one time)
+
+ 7) git push -u origin master
+
+
+
